@@ -3,40 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Coloca tu CSS aquí -->
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F49AC2;
+        }
+
+        header {
+            background-color: #AEC6CF;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        /* Secciones */
+        section {
+            padding: 30px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #007BFF;
+        }
+
+        /* Experiencia laboral y portafolio */
+        article {
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #333;
+        }
+
+        /* Enlaces de contacto */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #FFB7C5;
+            color: #fff;
+        }
+
+    </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Mi Página Web</h1>
+        <img src="https://images.unsplash.com/photo-1516542076529-1ea3854896f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Logo de Mi Sitio" width="200" height="150">
+        <h1>Andrea Ortiz</h1>
+        <p>Programadora Web</p>
     </header>
-    
-    <nav>
+
+    <section id="acerca-de">
+        <h2>Acerca de Mí</h2>
+        <p>Soy una apasionada programadora web con experiencia en HTML, CSS y JavaScript. Me dedico a la creación de sitios web innovadores y educación en línea.</p>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <article>
+            <h3>Desarrollador Web en Startup XYZ</h3>
+            <p>Trabajé en el desarrollo de aplicaciones web utilizando tecnologías modernas.</p>
+        </article>
+        <article>
+            <h3>Educador en línea en ABC Academy</h3>
+            <p>Impartí cursos en línea sobre programación web y diseño de sitios web.</p>
+        </article>
+    </section>
+
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <article>
+            <h3>Proyecto 1</h3>
+            <p>Descripción breve del proyecto 1.</p>
+        </article>
+        <article>
+            <h3>Proyecto 2</h3>
+            <p>Descripción breve del proyecto 2.</p>
+        </article>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en [tu correo electrónico] o a través de mis perfiles en redes sociales:</p>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="https://linkedin.com/tuperfil" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/tuperfil" target="_blank">GitHub</a></li>
         </ul>
-    </nav>
-    
-    <main>
-        <section>
-            <h2>Acerca de Nosotros</h2>
-            <p>Somos una empresa dedicada a...</p>
-        </section>
-        
-        <section>
-            <h2>Nuestros Servicios</h2>
-            <ul>
-                <li>Servicio 1</li>
-                <li>Servicio 2</li>
-                <li>Servicio 3</li>
-            </ul>
-        </section>
-    </main>
-    
+    </section>
+
     <footer>
-        <p>&copy; 2023 Mi Página Web</p>
+        <p>&copy; 2023 Andrea Ortiz - Portafolio Personal</p>
     </footer>
 </body>
 </html>
